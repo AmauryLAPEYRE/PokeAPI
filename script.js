@@ -94,11 +94,9 @@ $(document).ready(function(){
     let currentPage = 0;
     sessionStorage.setItem('currentPage', currentPage);
 
-    if(sessionStorage.getItem('prev_page') && sessionStorage.getItem('next_page')) {
-      // Nothing
-    } else {
+    if(!(sessionStorage.getItem('prev_page') && sessionStorage.getItem('next_page'))) {
       sessionStorage.setItem('prev_page', 0);
-      sessionStorage.setItem('next_page', 10);
+      sessionStorage.setItem('next_page', 10)
     }
 
     let nextPage = document.querySelector('.next');
