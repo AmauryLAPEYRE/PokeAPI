@@ -149,44 +149,7 @@ $(document).ready(function(){
       div_2.appendChild(image);
       div_2.appendChild(div_3)
       div_3.appendChild(type)
-        div_3.classList.add(data.types[0].type.name)
-//       } else if (data.types[0].type.name == "water") {
-//         div_3.classList.add("water")
-//       } else if (data.types[0].type.name == "grass") {
-//         div_3.classList.add("grass")
-//       } else if (data.types[0].type.name == "electric") {
-//         div_3.classList.add("electric")
-//       } else if (data.types[0].type.name == "psychic") {
-//         div_3.classList.add("psychic")
-//       } else if (data.types[0].type.name == "normal") {
-//         div_3.classList.add("normal")
-//       } else if (data.types[0].type.name == "bug") {
-//         div_3.classList.add("bug")
-//       } else if (data.types[0].type.name == "dark") {
-//         div_3.classList.add("dark")
-//       } else if (data.types[0].type.name == "ghost") {
-//         div_3.classList.add("ghost")
-//       } else if (data.types[0].type.name == "rock") {
-//         div_3.classList.add("rock")
-//       } else if (data.types[0].type.name == "flying") {
-//         div_3.classList.add("flying")
-//       } else if (data.types[0].type.name == "dragon") {
-//         div_3.classList.add("dragon")
-//       } else if (data.types[0].type.name == "flying") {
-//         div_3.classList.add("flying")
-//       } else if (data.types[0].type.name == "steel") {
-//         div_3.classList.add("steel")
-//       } else if (data.types[0].type.name == "poison") {
-//         div_3.classList.add("poison")
-//       } else if (data.types[0].type.name == "ground") {
-//         div_3.classList.add("ground")
-//       } else if (data.types[0].type.name == "fairy") {
-//         div_3.classList.add("fairy")
-//       } else if (data.types[0].type.name == "fighting") {
-//         div_3.classList.add("fighting")
-//       } else if (data.types[0].type.name == "ice") {
-//         div_3.classList.add("ice")
-//       }
+      div_3.classList.add(data.types[0].type.name)
       div_2.appendChild(height);
       div_2.appendChild(weight);
       target.appendChild(div_1);
